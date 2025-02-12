@@ -1,0 +1,150 @@
+name: testapp10
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bluetooth_serial: ^0.4.0
+  permission_handler: ^11.0.0
+  smooth_page_indicator: ^1.2.0+3
+  shared_preferences: ^2.0.11
+  image_picker: ^1.1.2
+  flutter_markdown: ^0.7.4+1
+  screenshot: ^3.0.0
+  gallery_saver: ^2.3.2
+  path_provider: ^2.1.5
+  sqflite: ^2.2.0
+  open_file: ^3.5.10
+  path: ^1.9.0
+  file_picker: ^8.1.4
+  android_intent_plus: ^5.2.0
+  share_plus: ^10.1.2
+  pdf: ^3.8.4
+  loading_animation_widget: ^1.3.0
+  flutter_screenutil: ^5.9.3
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/AppIcon/HD/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: poorrichards
+      fonts:
+        - asset: assets/fonts/PoorRichardOpti.otf
+
+  assets:
+    - assets/db/plants.db
+
+    - assets/images/broken_image.png
+
+    - assets/videos/manual/v1.webm
+    - assets/videos/manual/v2.webm
+    - assets/videos/manual/v3.webm
+    - assets/videos/manual/v4.webm
+    - assets/videos/manual/v5.webm
+    - assets/videos/manual/v6.webm
+    - assets/videos/manual/v7.webm
+    - assets/videos/manual/a1_s1.webm
+    - assets/videos/manual/a1_s2.webm
+    - assets/videos/manual/b1_s1.webm
+    - assets/videos/manual/b1_s2.webm
+    - assets/videos/manual/b1_s3.webm
+    - assets/videos/manual/c1_s1.webm
+    - assets/videos/manual/c1_s2.webm
+    - assets/videos/manual/d1_s1.webm
+    - assets/videos/manual/d1_s2.webm
+
+    - assets/images/alert/exit1.png
+    - assets/images/alert/mainmenu.png
+    - assets/images/alert/yes.png
+    - assets/images/alert/no.png
+    - assets/images/alert/unarchive.png
+    - assets/images/alert/archive.png
+
+    - assets/images/button/button.png
+    - assets/images/button/proceed.png
+    - assets/images/button/scan.png
+    - assets/images/button/getstarted.png
+    - assets/images/button/exit.png
+    - assets/images/button/back.png
+    - assets/images/button/home.png
+    - assets/images/button/save.png
+    - assets/images/button/screenshot.png
+    - assets/images/button/recommendation.png
+    - assets/images/button/requirements.png
+    - assets/images/button/analyze.png
+    - assets/images/button/viewresults.png
+    - assets/images/button/proceed_tutorial.png
+    - assets/images/button/skip.png
+
+    - assets/images/About/qr.png
+    - assets/images/About/alecs.png
+    - assets/images/About/brian.png
+    - assets/images/About/erica.png
+    - assets/images/About/rhyz.png
+    - assets/images/About/ken.png
+
+    - assets/images/foreground/reminder.png
+    - assets/images/foreground/led.png
+    - assets/images/foreground/scancomplete.png
+
+    - assets/images/logo.png
+    - assets/images/textLOGO.png
+    - assets/images/LOGO/SCS.png
+    - assets/images/LOGO/cct.png
+    - assets/images/LOGO/DA.png
+
+    - assets/images/BG/bg1.png
+    - assets/images/BG/bg2.png
+    - assets/images/BG/bg3.png
+    - assets/images/BG/bg4.png
+    - assets/images/BG/bg5.png
+    - assets/images/BG/bg6.png
+    - assets/images/BG/bg7.png
+
+    - assets/images/Crops/okra.png
+    - assets/images/Crops/talong.png
+    - assets/images/Crops/banana.png
+    - assets/images/Crops/sweetpotato.png
+    - assets/images/Crops/cucumber.png
+
+    - assets/images/manual/a1.jpg
+    - assets/images/manual/a2.jpg
+    - assets/images/manual/a3.jpg
+    - assets/images/manual/a4.jpg
+
+    - assets/images/manual/a1.png
+    - assets/images/manual/a2.png
+    - assets/images/manual/a3.png
+    - assets/images/manual/a4.png
+    - assets/images/manual/a5.png
+    - assets/images/manual/a6.png
+    - assets/images/manual/a7.png
+    - assets/images/manual/a8.png
+    - assets/images/manual/a9.png
+    - assets/images/manual/a10.png
+    - assets/images/manual/a11.png
+    - assets/images/manual/a12.png
+    - assets/images/manual/a13.png
+    - assets/images/manual/a14.png
+    - assets/images/manual/a15.png
+    - assets/images/manual/thumb1.png
