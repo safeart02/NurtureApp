@@ -505,11 +505,11 @@ class Results extends StatelessWidget {
 
   String formatNutrientLevel(String level) {
   if (level == 'HIGH') {
-    return 'HIGH (129-255)';
+    return 'HIGH (129-255) mg/kg';
   } else if (level == 'MEDIUM') {
-    return 'MEDIUM (39-128)';
+    return 'MEDIUM (39-128) mg/kg';
   } else if (level == 'LOW') {
-    return 'LOW (0-38)';
+    return 'LOW (0-38) mg/kg';
   } else {
     return level;
   }
@@ -671,11 +671,11 @@ class Results extends StatelessWidget {
     String computedString = intValue.toStringAsFixed(0);
 
     if (computedValue >= 0 && computedValue <= 299) {
-      return 'LOW ($computedString)\n';
+      return 'LOW ($computedString) mg/kg\n';
     } else if (computedValue >= 300 && computedValue <= 1000) {
-      return 'MEDIUM ($computedString)\n';
+      return 'MEDIUM ($computedString) mg/kg\n';
     } else if (computedValue > 1000 && computedValue <= 1999) {
-      return 'HIGH ($computedString)\n';
+      return 'HIGH ($computedString) mg/kg\n';
     } else {
       return 'Value is out of bounds ($computedString).';
     }
